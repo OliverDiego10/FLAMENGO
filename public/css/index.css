@@ -1,3 +1,24 @@
+/* estilo da pagina index.css */
+
+main {
+    text-align: justify;
+}
+main h1 {
+    text-align: center;
+}
+
 .cover-container figure img {
     width: 100%;
+}
+
+@media  and (min-width: 992px) {
+        .cover-container figure img {
+            width: 40%;
+        }
+}
+
+main section {
+    width: 70%;
+    margin-bottom: 50px;
+    text-align: justify;
 }

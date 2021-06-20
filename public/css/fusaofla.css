@@ -1,9 +1,18 @@
 /* Estilo globais do site */
 html {
-    height: 100px;
+    height: 100%;
 }
 body {
     background-color: rgb(238, 202, 202);
     font-family: sans-serif;
     margin: 0;
+    padding: 20px;
+    width: 75%;
+    }
+
+    .title {
+        padding: 0 20px;
+    }
+    .text-justify {
+            text-align: justify;
     }
